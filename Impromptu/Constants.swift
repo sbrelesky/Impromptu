@@ -149,18 +149,4 @@ struct Constants {
     }
 }
 
-//
-//struct MockData {
-//    static let question = Question(id: "SA5uPK9W6f6m7f3PvNH1", text: "Hello there _____, let's make it a little longer ... _____")
-//    static let game = Game(
-//        id: "1234",
-//        status: .created,
-//        questions: [])
-//    
-//    static let players = [
-//        Player(name: "Player 1", ready: false, points: 0),
-//        Player(name: "Player 2", ready: true, points: 0)
-//    ]
-//}
-
 

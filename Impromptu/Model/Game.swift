@@ -30,6 +30,12 @@ struct Game: Codable {
         case status
     }
     
+    init(id: String?, dateCreated: Timestamp = Timestamp(date: .now), status: GameStatus) {
+        self.id = id
+        self.dateCreated = dateCreated
+        self.status = status
+    }
+    
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         

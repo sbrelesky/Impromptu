@@ -35,7 +35,7 @@ class GameManager {
     
     var currentRound: Int = 0
     
-    private var playerId: String?
+    var playerId: String?
     
     var code: String? {
         return game?.id

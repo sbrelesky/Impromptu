@@ -48,6 +48,7 @@
 		34A02A622D42D1B400AA5087 /* BasePlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A02A612D42D1B400AA5087 /* BasePlayerCell.swift */; };
 		34A02A652D42D3A600AA5087 /* WinnerCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A02A642D42D3A600AA5087 /* WinnerCardCell.swift */; };
 		34A02A672D42D8DA00AA5087 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34A02A662D42D8DA00AA5087 /* GoogleService-Info.plist */; };
+		34A02A692D44047700AA5087 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A02A682D44047700AA5087 /* MockData.swift */; };
 		34C372102C38AE450069FB7B /* VotingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C3720F2C38AE450069FB7B /* VotingCell.swift */; };
 		34C372132C38AE9C0069FB7B /* RoundResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C372122C38AE9C0069FB7B /* RoundResultsController.swift */; };
 		34C372152C38D3730069FB7B /* ResultsCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C372142C38D3730069FB7B /* ResultsCardCell.swift */; };
@@ -93,6 +94,7 @@
 		34A02A612D42D1B400AA5087 /* BasePlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePlayerCell.swift; sourceTree = "<group>"; };
 		34A02A642D42D3A600AA5087 /* WinnerCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerCardCell.swift; sourceTree = "<group>"; };
 		34A02A662D42D8DA00AA5087 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		34A02A682D44047700AA5087 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		34C3720F2C38AE450069FB7B /* VotingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingCell.swift; sourceTree = "<group>"; };
 		34C372122C38AE9C0069FB7B /* RoundResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundResultsController.swift; sourceTree = "<group>"; };
 		34C372142C38D3730069FB7B /* ResultsCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsCardCell.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 			children = (
 				34523F942BFD1929008EA3B8 /* Game.swift */,
 				34523F962BFD19D9008EA3B8 /* GameManager.swift */,
+				34A02A682D44047700AA5087 /* MockData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				34523FAC2BFE6B4C008EA3B8 /* QuestionController.swift in Sources */,
 				34523FA92BFD2947008EA3B8 /* HomeViewController.swift in Sources */,
 				34523F952BFD1929008EA3B8 /* Game.swift in Sources */,
+				34A02A692D44047700AA5087 /* MockData.swift in Sources */,
 				34523F9C2BFD1AF9008EA3B8 /* ErrorPopup.swift in Sources */,
 				34523FAE2BFE7073008EA3B8 /* PaddedTextView.swift in Sources */,
 				34CD176A2C3DA6D4006CCF4B /* GameOverController.swift in Sources */,
